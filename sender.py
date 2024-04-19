@@ -12,9 +12,9 @@ def sendMail(s_email,password,r_email,subject,body):
     server.sendmail(s_email,[r_email],msg.as_string())  #sending the message
     server.quit()  #Terminate the SMTP session and close the connection.
 
-fromaddr="hamoborg@gmail.com"
-password="zcdm gors dzik cyru"
-toaddr="ghalynermine@gmail.com"
-subject="Hello!!!!"
-text="how are you?????"
+fromaddr="example@gmail.com"  #sender email
+password="************"       #sender password
+toaddr="example@gmail.com"  #reciever email
+subject="Hello!!!!"  # subject of the mail
+text="how are you?????"  # body of the mail
 sendMail(fromaddr,password,toaddr,subject,text)
