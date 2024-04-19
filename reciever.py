@@ -1,8 +1,8 @@
 from imaplib import IMAP4_SSL
 import email
 
-username="hamoborg@gmail.com"
-password="zcdm gors dzik cyru"
+username="example@gmail.com"
+password="***********"
 server=IMAP4_SSL('imap.gmail.com')  # gmail incoming mail server
 server.login(username,password)
 res,msgnums=server.select()  # default mailbox:inbox
