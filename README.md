@@ -8,7 +8,7 @@ The sendMail() function sends an email message using Gmail's SMTP server. It acc
 
 Usage
 To use the sendMail() function, simply call it with the required parameters:
-`
+```python
 from sendMail import sendMail
 
 fromaddr = "sender@gmail.com"
@@ -17,4 +17,4 @@ toaddr = "recipient@example.com"
 subject = "Subject of the email"
 text = "Body of the email"
 sendMail(fromaddr, password, toaddr, subject, text)
-`
+```
