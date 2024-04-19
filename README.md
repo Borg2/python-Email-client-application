@@ -18,7 +18,7 @@ subject = "Subject of the email"
 text = "Body of the email"
 sendMail(fromaddr, password, toaddr, subject, text)
 ```
-# Script 2: Retrieve and Display Email Details
+# Script 2: Reciever.py
 Functionality:<br>
 This script retrieves the most recent email from the Gmail inbox using the IMAP protocol (IMAP4_SSL), parses the email message using the email module, and then displays the sender, subject, and content of the email. It establishes a secure connection to the Gmail IMAP server (imap.gmail.com:993), logs in using the user's credentials, selects the inbox mailbox, fetches the most recent email message, parses the message into its components (sender, subject, content), and then prints out these details.
 
